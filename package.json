@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --ext ts",
@@ -12,27 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@hazmi35/eslint-config": "^11.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
+    "@hazmi35/eslint-config": "^13.2.4",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
-  },
-  "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    },
-    "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "@hazmi35/eslint-config/typescript"
-    ],
-    "rules": {
-      "class-methods-use-this": "off"
-    }
   }
 }

@@ -30,6 +30,5 @@
   "include": [
     "src/**/**.ts",
     "src/**/**.json",
-    "tsup.config.ts"
   ],
 }
