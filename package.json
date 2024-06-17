@@ -16,9 +16,12 @@
   "license": "ISC",
   "devDependencies": {
     "@hazmi35/eslint-config": "^13.2.4",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
-    "eslint": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
   }
 }
