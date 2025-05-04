@@ -7,7 +7,7 @@ settings:
 dependencies:
   amqplib:
     specifier: ^0.10.4
-    version: 0.10.7
+    version: 0.10.8
 
 devDependencies:
   '@hazmi35/eslint-config':
@@ -781,8 +781,8 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /amqplib@0.10.7:
-    resolution: {integrity: sha512-7xPSYKSX2kj/bT6iHZ3MlctzxdCW1Ds9xyN0EmuRi2DZxHztwwoG1YkZrgmLyuPNjfxlRiMdWJPQscmoa3Vgdg==}
+  /amqplib@0.10.8:
+    resolution: {integrity: sha512-Tfn1O9sFgAP8DqeMEpt2IacsVTENBpblB3SqLdn0jK2AeX8iyCvbptBc8lyATT9bQ31MsjVwUSQ1g8f4jHOUfw==}
     engines: {node: '>=10'}
     dependencies:
       buffer-more-ints: 1.0.0
